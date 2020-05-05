@@ -1,0 +1,10 @@
+.root {
+  width: 80%;
+  margin: auto;
+  &_container {
+    transform: translate(0, 10rem);
+    box-shadow: 0 2px 4px #ccc;
+    margin: 0.3rem 0 0 0;
+    padding: 0.9rem;
+  }
+}

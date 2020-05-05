@@ -1,0 +1,32 @@
+.root {
+  &_btn {
+    font-size: 1.6rem;
+    cursor: pointer;
+    font-weight: 200;
+    padding: 1.5rem;
+    letter-spacing: 0.4rem;
+    text-transform: uppercase;
+    border: 2px solid #aaa;
+    box-shadow: 0 3px 5px #ccc;
+    border-radius: 6%;
+
+    &:active {
+      outline: none;
+      transform: translate(0, 0.3rem);
+    }
+
+    &:focus {
+      outline: none;
+    }
+
+    &_signout {
+      background-color: red;
+      color: white;
+    }
+
+    &_signin {
+      background-color: green;
+      color: white;
+    }
+  }
+}

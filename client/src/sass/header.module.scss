@@ -1,0 +1,11 @@
+.root {
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: fixed;
+  border-bottom: 0.5rem solid #ccc;
+  padding: 1.5rem;
+  box-shadow: 0 2px 4px #ccc;
+  z-index: 2;
+  background-color: white;
+}

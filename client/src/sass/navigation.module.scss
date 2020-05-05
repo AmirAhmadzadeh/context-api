@@ -1,0 +1,24 @@
+.root {
+  &_list {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    align-items: center;
+    &_authButton {
+      border: 1px solid #ccc;
+      padding: 0.9rem;
+      font-size: 1.5rem;
+      border-radius: 10%;
+      cursor: pointer;
+      background-color: #eee;
+      transition: all 20ms ease-in-out;
+      &:focus {
+        outline: none;
+      }
+      &:active {
+        transform: translate(0, 0.09rem);
+        background-color: red;
+      }
+    }
+  }
+}
